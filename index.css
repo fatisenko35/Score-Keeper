@@ -1,0 +1,58 @@
+.container{
+    width: 450px;
+    /* background-color: cadetblue; */
+    padding: 9px 68px;
+    text-align: center;
+    margin: 0 25px;
+    box-shadow: rgba(0,0,0,0.1) 4px 10px 16px 0px;
+    background-color: #FFF;
+    max-width: 31.25rem;
+}
+
+.container>div{
+    margin-top: 1rem;
+}
+body{
+    
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 148px;
+    margin: 1px;
+    padding: 1rem 0.5rem;
+    border: white;
+}
+
+#btn__player-1{
+    background-color: #90EE90;
+}
+
+#btn__player-2{
+    background-color: #ADD8E6;
+}
+
+#btn__reset{
+    background-color: #FFC9CE;
+}
+
+.content5{
+    padding: 1rem;
+    display: flex;
+}
+
+.content6{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+label{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+#winners{
+    color: #FFF;
+}
